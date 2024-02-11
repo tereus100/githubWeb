@@ -1,7 +1,20 @@
+
+
 .text1 {
-    font-size: 50px;
-    color:blue;
+    font-size: 40px;
+    color: blue;
     text-align: center;
     background-color: antiquewhite;
-    border-radius: 5px 5px;
+    border-radius: 5px;
+    margin-right: 10px; /* Espaçamento entre text1 e botao */
+}
+
+.botao {
+    color: #F0F8FF;
+    background-color: #6495ED;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 30px;
+    width: 100%;
 }
