@@ -15,11 +15,11 @@ function alterarCores() {
 // Função que mostra a hora atual na página
 function mostrarHora() {
     // Cria um objeto Date com a hora atual
-    var agora = new Date();
+    let agora = new Date();
     // Formata a hora de acordo com o fuso horário do Brasil
-    var hora = agora.toLocaleString("pt-BR", {timeZone: "America/Sao_Paulo"});
+    let  hora = agora.toLocaleString("pt-BR", {timeZone: "America/Sao_Paulo"});
     // Seleciona o elemento div com o id "hora"
-    var div = document.getElementById("hora");
+    let  div = document.getElementById("hora");
     // Altera o conteúdo do elemento div com a hora formatada
     div.innerHTML = hora;
   }
